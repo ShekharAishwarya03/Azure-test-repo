@@ -1,0 +1,131 @@
+# Web Project — HTML & CSS Files
+
+## Overview
+
+This project contains simple HTML pages and a CSS stylesheet. It appears to be a beginner-friendly web development and Git learning exercise, covering basic HTML structure, text content, and CSS styling.
+
+---
+
+## Project Structure
+
+```
+project/
+├── abc.html          # Git and VI editor learning notes page
+├── world.html        # Hello World demonstration page
+└── new_change.css    # Stylesheet for project pages
+```
+
+---
+
+## File Descriptions
+
+### `abc.html`
+A simple HTML page containing notes or content related to:
+- Getting started with **Git** version control
+- Learning the **VI editor**
+
+This file is useful as a reference or practice page for developers new to command-line tools.
+
+**Content preview:**
+```
+Welcome to Git
+Learning VI editor
+```
+
+---
+
+### `world.html`
+A classic "Hello World" HTML page — a standard starting point for learning web development.
+
+**Content preview:**
+```
+Hello world
+Hello world 2
+```
+
+---
+
+### `new_change.css`
+A CSS stylesheet intended to apply visual styling across the HTML pages. Currently contains initial/new change entries and can be expanded with styles for layout, typography, and colors.
+
+---
+
+## Getting Started
+
+### Prerequisites
+- A modern web browser (Chrome, Firefox, Edge, etc.)
+- A text editor (e.g., **VI/Vim**, VS Code, Notepad++)
+- Git (for version control)
+
+### Running Locally
+
+1. Clone or download this repository:
+   ```bash
+   git clone <repository-url>
+   cd <project-folder>
+   ```
+
+2. Open any HTML file directly in your browser:
+   ```bash
+   # On Linux/macOS
+   open abc.html
+   open world.html
+
+   # Or simply double-click the file in your file explorer
+   ```
+
+### Linking the CSS
+
+To apply `new_change.css` styling to the HTML pages, add the following line inside the `<head>` tag of each HTML file:
+
+```html
+<link rel="stylesheet" href="new_change.css">
+```
+
+---
+
+## Version Control with Git
+
+This project is managed with **Git**. Common commands to get started:
+
+```bash
+# Initialize a new repository
+git init
+
+# Check the status of your files
+git status
+
+# Stage files for commit
+git add abc.html world.html new_change.css
+
+# Commit your changes
+git commit -m "Initial commit"
+
+# Push to remote repository
+git push origin main
+```
+
+---
+
+## VI Editor Quick Reference
+
+Since `abc.html` references VI editor learning, here are essential commands:
+
+| Mode    | Command | Action                  |
+|---------|---------|-------------------------|
+| Normal  | `i`     | Enter Insert mode       |
+| Normal  | `:w`    | Save file               |
+| Normal  | `:q`    | Quit                    |
+| Normal  | `:wq`   | Save and quit           |
+| Normal  | `:q!`   | Quit without saving     |
+| Normal  | `dd`    | Delete current line     |
+| Normal  | `yy`    | Copy (yank) current line|
+| Normal  | `p`     | Paste                   |
+
+---
+
+## Notes
+
+- This project is ideal for beginners learning Git workflows and basic web development simultaneously.
+- The CSS file (`new_change.css`) is minimal and can be extended with styles to improve the visual appearance of the HTML pages.
+- Consider adding proper HTML5 boilerplate (`<!DOCTYPE html>`, `<head>`, `<body>` tags) to each HTML file for standards compliance.
